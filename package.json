@@ -1,6 +1,6 @@
 {
   "name": "card-drag-component",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "private": false,
   "description": "基于vue的卡片拖拽排列组件",
   "main": "lib/cardDragComponent.umd.min.js",
