@@ -1,0 +1,45 @@
+{
+  "name": "card-drag-component",
+  "version": "1.0.0",
+  "private": false,
+  "description": "基于vue的卡片拖拽排列组件",
+  "main": "lib/cardDragComponent.umd.min.js",
+  "author": {
+    "name": "liuhanchuan"
+  },
+  "keywords": [
+    "card-drag-component",
+    "cardDrag",
+    "cardDragComponent",
+    "drag",
+    "mover"
+  ],
+  "bugs": {
+    "url": "https://github.com/CN-LHC/cardDragComponent/issues"
+  },
+  "homepage": "https://github.com/CN-LHC/cardDragComponent",
+  "license": "MIT",
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "lib": "vue-cli-service build --target lib --name cardDragComponent --dest lib packages/index.js"
+  },
+  "dependencies": {
+    "core-js": "^2.6.5",
+    "vue": "^2.6.10"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "^3.11.0",
+    "@vue/cli-service": "^3.11.0",
+    "vue-template-compiler": "^2.6.10"
+  },
+  "postcss": {
+    "plugins": {
+      "autoprefixer": {}
+    }
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions"
+  ]
+}
